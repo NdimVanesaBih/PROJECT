@@ -1,0 +1,132 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} */
+ul,
+li {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    padding-inline: 27px;
+}
+
+.F {
+    color: white;
+    background-color: rgb(96, 253, 96);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.Home {
+    color: rgb(88, 248, 88);
+}
+
+ul,
+li,
+img {
+    margin-right: 25px;
+}
+
+span {
+    color: rgb(13, 250, 13);
+}
+
+button {
+    border-radius: 75px;
+    background-color: rgb(31, 231, 31);
+    color: white;
+    height: 50px;
+    width: 120px;
+    border: 0px;
+}
+
+.bb {
+    background-color: rgb(245, 241, 241);
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.img {
+    margin-left: 400px;
+    background-color: rgb(10, 247, 10);
+    width: 560px;
+    height: 484px;
+    border-radius: 100%;
+
+}
+
+img {
+    margin-top: -120px;
+}
+
+.ril {
+    display: flex;
+    margin-top: 80px;
+}
+
+.rel {
+    position: relative;
+    top: 70px;
+    left: -155px;
+}
+
+.rot {
+    transform: rotate(180deg);
+
+}
+
+.abs {
+    position: absolute;
+    top: -50px;
+    left: 80px;
+    font-size: 24px;
+    color: red;
+}
+
+.main {
+    height: 100px;
+    width: 243px;
+    border-radius: 12px;
+    display: flex;
+    position: relative;
+    background-color: rgb(252, 248, 248);
+    bottom: 10px;
+}
+
+.rel1 {
+   margin-top: 5rem;
+   margin-left: 0.5rem;
+   
+}
+.dolar{
+    font-size:small;
+}
+.container{
+    height: 100px;
+    width: 243px;
+    /* border: solid 1px; */
+    display: flex;
+    position: relative;
+    margin-left: 300px;
+    bottom: 106px;
+    border-radius: 12px;
+    background-color: rgb(245, 243, 243);
+}
+.rel2{
+    margin-top: 5rem;
+    margin-left: 0.5rem;
+    
+}
