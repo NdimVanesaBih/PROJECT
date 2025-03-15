@@ -63,20 +63,28 @@ button {
     margin-left: 400px;
     background-color: rgb(10, 247, 10);
     width: 560px;
-    height: 484px;
+    height: 430px;
     border-radius: 100%;
+    padding-bottom: 97px;
 
 }
 
 img {
-    margin-top: -120px;
+    margin-top: -100px;
 }
 
 .ril {
+    width: 100%;
     display: flex;
-    margin-top: 80px;
+    /* margin: 0px 10px; */
+    margin-left: 40px;
+    padding-bottom: 12px;
 }
-
+.note{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+}
 .rel {
     position: relative;
     top: 70px;
@@ -108,7 +116,7 @@ img {
 
 .rel1 {
    margin-top: 5rem;
-   margin-left: 0.5rem;
+   margin-left: 0.2rem;
    
 }
 .dolar{
@@ -129,4 +137,112 @@ img {
     margin-top: 5rem;
     margin-left: 0.5rem;
     
+}
+.cus{
+    color: rgb(240, 58, 58);
+}
+.second{
+    margin-top: 200px;
+    padding-left: 650px;
+}
+
+.car{
+    position: relative;
+    height: 140px;
+    width: 200px;
+    /* border: solid 1px; */
+    padding: 8px;
+    border-radius: 12px;
+    /* padding-bottom: -40px; */
+    background-color: rgb(248, 248, 248);
+}
+.teb{
+    position: absolute;
+    top: 6rem; 
+    left: 2.5rem;
+}
+.galon{
+    display: flex;
+    gap: 24px;
+    padding-left: 300px;
+}
+.level{
+    background-color: rgb(189, 248, 189);
+    padding: 12px;
+    border-radius: 100%;
+}
+.lun{
+    color: black;
+    font-size: large;
+}
+.galon1{
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+    margin-left: 300px;
+}
+.car1{
+    border: solid 1px;
+    height: 180px;
+    width: 500px;
+    position: relative;
+    padding: 20px;
+}
+.teb1{
+    bottom: -20px;
+    position: absolute;
+    left: 60px;
+}
+.larg{
+    padding-top: 200px;
+    display: flex;
+justify-content: space-between;
+margin: 100px;
+}
+.div{
+    display: flex;
+    padding-top: 60px;
+    margin-left: 12px;
+}
+.obs{
+    position: relative;
+    padding-left: -1200px;
+}
+.teb{
+    position: absolute;
+    left: -12px;
+    padding-left: 20px;
+}
+.let{
+    background-color: rgb(88, 252, 88);
+    height:300px;
+    border-radius: 12%;
+    margin-bottom: -2400PX;
+    position: relative;
+}
+.img1{
+    position: absolute;
+    bottom: 230px;
+    left: -12px;
+}
+.img2{
+    position:absolute ;
+    left: 395px;
+    bottom: 245px;
+}
+.img3{
+    position: absolute;
+    bottom: -110px;
+    right: -220px;
+}
+.messa{
+    position: absolute;
+    top: -40px;
+    right: 120px;
+    color: black;
+    font-size:x-large;
+}
+section{
+    padding-top: 500px;
+    margin-left: -800px;
 }
