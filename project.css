@@ -1,10 +1,12 @@
-/* *{
+*{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-} */
-ul,
-li {
+}
+nav{
+    margin-left: 10px;
+}
+ul, li{
     display: flex;
     justify-content: left;
     text-align: center;
@@ -25,8 +27,8 @@ h1 {
 nav {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    align-items: center;
+    /* text-align: center;
+    align-items: center; */
 }
 
 .Home {
@@ -60,30 +62,29 @@ button {
 }
 
 .img {
-    margin-left: 400px;
     background-color: rgb(10, 247, 10);
-    width: 560px;
-    height: 430px;
+    width: 450px;
+    height: 360px;
     border-radius: 100%;
-    padding-bottom: 97px;
-
+    /* margin-bottom: -100px; */
 }
-
 img {
-    margin-top: -100px;
+    margin-top: -135px;
 }
 
 .ril {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
-    /* margin: 0px 10px; */
-    margin-left: 40px;
-    padding-bottom: 12px;
+    margin-top:  200px;
+    /* margin-left: 50px; */
+    /* padding-bottom: 120px; */
+    /* margin-right: 50px; */
 }
 .note{
     width: 50%;
     padding: 20px;
     margin: 10px;
+    font-size: larger;
 }
 .rel {
     position: relative;
@@ -182,11 +183,12 @@ img {
     margin-left: 300px;
 }
 .car1{
-    border: solid 1px;
     height: 180px;
     width: 500px;
     position: relative;
     padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 22px;
 }
 .teb1{
     bottom: -20px;
@@ -201,24 +203,24 @@ margin: 100px;
 }
 .div{
     display: flex;
-    padding-top: 60px;
+    padding-top: 75px;
     margin-left: 12px;
 }
 .obs{
     position: relative;
-    padding-left: -1200px;
+    padding-left: 70px;
 }
-.teb{
-    position: absolute;
-    left: -12px;
-    padding-left: 20px;
+.tes{
+position: absolute;
+margin-left: -100px;
 }
 .let{
     background-color: rgb(88, 252, 88);
-    height:300px;
+    height:265px;
     border-radius: 12%;
-    margin-bottom: -2400PX;
+    /* margin-bottom: -2200PX; */
     position: relative;
+
 }
 .img1{
     position: absolute;
@@ -237,12 +239,81 @@ margin: 100px;
 }
 .messa{
     position: absolute;
-    top: -40px;
+    top: -70px;
     right: 120px;
     color: black;
     font-size:x-large;
 }
-section{
-    padding-top: 500px;
-    margin-left: -800px;
+h3{
+    margin-top: -60px;
+}
+.li{
+    color: rgb(204, 203, 202);
+}
+.mama{
+    height: 200px;
+    width: 200px;
+   border-radius: 30px;
+    position: relative;
+   top: -300px;
+   background-color: rgb(255, 250, 250);
+}
+.mama1{
+    height: 200px;
+    width: 200px;
+    border-radius:30px ;
+    position: relative;
+    margin-left: 250px;
+    top: -710px;
+    background-color: rgb(255, 251, 251);
+    
+}
+.start{
+    position: absolute;
+    bottom: -2px;
+    left: 50px;
+}
+.papa{
+    display: grid;
+    gap: 5px;
+    margin-left: 800px;
+    /* margin-bottom: -700px; */
+}
+.do{
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: larger;
+}
+.bb, .cc{
+    margin-top: 25px;
+}
+.sha{
+    margin:20px;
+}
+.lol{
+    font-size: small;
+    color: red;
+}
+.last{
+    position: relative;
+    top: -700px;
+    left: 80px;
+
+    
+    
+}
+.useful{
+    position: relative;
+    top: -750px;
+    left: 450px;
+}
+.menu{
+    position: relative;
+    top:-800px ;
+    left: 800px;
+}
+.contact{
+    position: relative;
+    top: -890px;
+    left: 1200px;
 }
