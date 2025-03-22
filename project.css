@@ -1,6 +1,6 @@
 *{
     padding: 0px;
-    margin: 0px;
+    margin: 2px;
     box-sizing: border-box;
 }
 nav{
@@ -12,7 +12,12 @@ ul, li{
     text-align: center;
     padding-inline: 27px;
 }
-
+nav, ul, li, a{
+    text-decoration: none;
+}
+.phone{
+    margin-right: 80px;
+}
 .F {
     color: white;
     background-color: rgb(96, 253, 96);
@@ -39,6 +44,7 @@ ul,
 li,
 img {
     margin-right: 25px;
+    gap: 30px;
 }
 
 span {
@@ -66,19 +72,14 @@ button {
     width: 450px;
     height: 360px;
     border-radius: 100%;
-    /* margin-bottom: -100px; */
 }
 img {
     margin-top: -135px;
 }
 
 .ril {
-    /* width: 100%; */
     display: flex;
     margin-top:  200px;
-    /* margin-left: 50px; */
-    /* padding-bottom: 120px; */
-    /* margin-right: 50px; */
 }
 .note{
     width: 50%;
@@ -126,7 +127,6 @@ img {
 .container{
     height: 100px;
     width: 243px;
-    /* border: solid 1px; */
     display: flex;
     position: relative;
     margin-left: 300px;
@@ -151,10 +151,8 @@ img {
     position: relative;
     height: 140px;
     width: 200px;
-    /* border: solid 1px; */
     padding: 8px;
     border-radius: 12px;
-    /* padding-bottom: -40px; */
     background-color: rgb(248, 248, 248);
 }
 .teb{
@@ -165,7 +163,6 @@ img {
 .galon{
     display: flex;
     gap: 24px;
-    padding-left: 300px;
 }
 .level{
     background-color: rgb(189, 248, 189);
@@ -180,18 +177,18 @@ img {
     display: flex;
     margin-top: 100px;
     gap: 100px;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 .car1{
-    height: 180px;
-    width: 500px;
+    height: 200px;
+    width: 270px;
     position: relative;
     padding: 20px;
     background-color: rgb(245, 245, 245);
     border-radius: 22px;
 }
 .teb1{
-    bottom: -20px;
+    bottom: -0px;
     position: absolute;
     left: 60px;
 }
@@ -199,7 +196,6 @@ img {
     padding-top: 200px;
     display: flex;
 justify-content: space-between;
-margin: 100px;
 }
 .div{
     display: flex;
@@ -218,7 +214,7 @@ margin-left: -100px;
     background-color: rgb(88, 252, 88);
     height:265px;
     border-radius: 12%;
-    /* margin-bottom: -2200PX; */
+    margin-bottom: -2200PX;
     position: relative;
 
 }
@@ -250,35 +246,7 @@ h3{
 .li{
     color: rgb(204, 203, 202);
 }
-.mama{
-    height: 200px;
-    width: 200px;
-   border-radius: 30px;
-    position: relative;
-   top: -300px;
-   background-color: rgb(255, 250, 250);
-}
-.mama1{
-    height: 200px;
-    width: 200px;
-    border-radius:30px ;
-    position: relative;
-    margin-left: 250px;
-    top: -710px;
-    background-color: rgb(255, 251, 251);
-    
-}
-.start{
-    position: absolute;
-    bottom: -2px;
-    left: 50px;
-}
-.papa{
-    display: grid;
-    gap: 5px;
-    margin-left: 800px;
-    /* margin-bottom: -700px; */
-}
+
 .do{
     margin-top: 200px;
     margin-left: 50px;
@@ -294,26 +262,121 @@ h3{
     font-size: small;
     color: red;
 }
-.last{
+.papa{
+ position: absolute;
+ display: flex;   
+ gap: 12px;  
+ margin-left: 700px;
+}
+.papa1{
+    position: absolute;
+    display: flex;   
+    gap: 12px;  
+    margin-left: 700px;
+   }
+.mama{
+    position:relative ;
+    border-radius: 20px;
+    height: 180px;
+    width: 200px;
+    background-color: rgb(243, 241, 241);
+}
+.mama1{
+    position:relative ;
+    border-radius: 20px;
+    height: 180px;
+    width: 200px;
+    margin-top: 190px;
+    background-color: rgb(243, 241, 241);
+}
+.start{
     position: relative;
-    top: -700px;
-    left: 80px;
-
+   top: 60px; 
+   left: 25%;
+}
+.red{
+    color: red;
+}
+.van{
+    position: relative;
+    bottom: -60px;
+}
+.dog{
+  display: flex; 
+  margin-top: 200px; 
+}
+.dull{
+    font-size:x-large ;
+}
+.van{
+    margin: 20px;
+}
+.foodi{
+    height: 160px;
+    width: 180px;
     
+}
+.ending{
+    display: flex;
+    margin-top: 200px;
+    gap: 190px;
+}
+.call{
+    position: relative;
+   
+    height: 50px;
+    width: 50px;
+    top: 90px;
+}
+.social{
+    position: relative;
+    top: 20px;
+}
+.lastly{
+    position: absolute;
+    gap: 20px;
+    display: flex;
+}
+.tallest{
+    background-color: rgb(121, 253, 150);
+}
+.ending{
+    display: flex;
+}
+.c{
+    border:solid 1px;
+    height: 10px;
+    width: 20px;
+    color: black;
+    border-radius: 100%;
+}
+footer{
+    margin-top: 100px;
+    margin-left: 700px;
+}
+@media(max-width:600px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        left: 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.menu-icon i{
+    color:black;
+    font-size: 30px;
     
 }
-.useful{
-    position: relative;
-    top: -750px;
-    left: 450px;
+.menue-icon{
+    display: block;
+    display: none;
 }
-.menu{
-    position: relative;
-    top:-800px ;
-    left: 800px;
+#menuList{
+    transition: all 0.5px;
 }
-.contact{
-    position: relative;
-    top: -890px;
-    left: 1200px;
+html, body{
+    height: 100%;
+    width: 100%;
 }
